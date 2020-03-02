@@ -1,5 +1,5 @@
 class Gggv < Formula
-  url "https://github.com/dianelooney/gggv.git", :branch => "djl/homebrew"
+  url "https://github.com/dianelooney/gggv.git"
 
   desc "Go Go Gadget: Video"
   homepage "https://github.com/dianelooney/gggv"
