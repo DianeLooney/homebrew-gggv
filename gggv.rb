@@ -1,5 +1,5 @@
 class Gggv < Formula
-  url "https://github.com/dianelooney/gggv.git"
+  url "https://github.com/dianelooney/gggv.git", :revision => ENV["HOMEBREW_GGGV_REVISION"]
 
   desc "Go Go Gadget: Video"
   homepage "https://github.com/dianelooney/gggv"
