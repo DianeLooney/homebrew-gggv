@@ -11,6 +11,7 @@ class Gggv < Formula
   depends_on "ffmpeg"
   depends_on "pkg-config"
   depends_on "portaudio"
+  depends_on "linuxbrew/xorg/libglvnd" unless OS.mac?
 
   def install
     system "go get -d ./..."
